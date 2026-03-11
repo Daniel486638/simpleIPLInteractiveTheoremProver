@@ -1,3 +1,16 @@
+# Copyright (C) Jan 13, 2026 Даниил Марченко
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#
+# See the GNU General Public License for more details.
+
 import pygame, string
 import threading
 import sys
@@ -356,5 +369,6 @@ while True:
             sys.exit()
     re.render_frame([("Цель: " + goal)] + indexedProp)
     pygame.time.wait(10)
+
 
 pygame.time.wait(11111111)
